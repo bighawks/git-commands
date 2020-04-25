@@ -1,7 +1,32 @@
 # Git commands
 ### Simple list of git commands
 
-Create a local repository
+Create a local repository.
 ```
 git init
+```
+
+Add readmefile (optional).
+```
+git add README.md
+```
+
+Create a new commit containing the current contents.
+```
+git commit -m "commit description"
+```
+
+Assign remote directory your repository is stored at.
+```
+git remote add origin https://github.com/[username]/[rep]
+```
+
+Pushes the commits to the remote master branch.
+```
+git push -u origin master
+```
+
+Make local the same of remote origin/master.
+```
+git fetch origin && git reset --hard origin/master && git clean -f -d
 ```
