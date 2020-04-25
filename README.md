@@ -30,3 +30,18 @@ Make local the same of remote origin/master.
 ```
 git fetch origin && git reset --hard origin/master && git clean -f -d
 ```
+
+Switch to a different branch
+```
+git checkout [branch name]
+```
+
+Delete local branch (-D to force the deletion)
+```
+git branch -d  [branch name]
+```
+
+Delete remote branch
+```
+git push origin :[branch name]
+```
