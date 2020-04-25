@@ -6,7 +6,7 @@ Create a local repository.
 git init
 ```
 
-Add readmefile (optional).
+Add readme file.
 ```
 git add README.md
 ```
@@ -41,7 +41,11 @@ Delete local branch (-D to force the deletion)
 git branch -d  [branch name]
 ```
 
-Delete remote branch
+Delete remote branch (you can use --delete or -d)
+```
+git push origin --delete [branch name]
+```
+OR
 ```
 git push origin :[branch name]
 ```
