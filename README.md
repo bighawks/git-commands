@@ -49,3 +49,8 @@ OR
 ```
 git push origin :[branch name]
 ```
+
+Other
+```
+https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-personal-account-on-github/managing-your-personal-account/managing-multiple-accounts
+```
